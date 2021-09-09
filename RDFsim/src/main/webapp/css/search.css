@@ -1,0 +1,166 @@
+/* ------------------------ Top Search Frame ------------------------*/
+.search-top{
+    height: 120px;
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.rdfsim-logo-img{
+    height: 100px;
+    max-width: 100vw;
+}
+
+.search-div{
+    /*float: left;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 40px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+    height:26px;*/
+    float: left;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    padding: 0 4px 0px;
+    height:36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    border: none;
+    font-size: 18px;
+    outline: 0;
+    margin-left: 10px;
+    display: inline-block;
+    height:26px;
+}
+
+.search-form{
+    float: left;
+}
+
+.rdfsim-logo{
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+.search-img{
+    height:23px;
+    width:23px;
+    margin-right: 8px;
+}
+
+/* ------------------------ Information Service Configuration ------------------------*/
+.settings-button-info-container{
+    text-align: center; 
+    width: 49%; 
+    float: left;   
+}
+
+.settings-button-info{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------------ Visualization Service Configuration ------------------------*/
+.settings-button-graph-container{
+    text-align: center;
+    margin-left: 50%;
+    width: 49%; 
+}
+
+.settings-button-graph{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------------ Main Frame ------------------------*/
+.results{
+    width: 100%;
+    height:100%;
+    clear:both;
+}
+
+/* ------------------------ Information Service Frame ------------------------*/
+.results-info{
+    text-align: center; 
+    width: 50%; 
+    height: 1000px; 
+    float: left;   
+}
+
+.iframe-wiki{
+    position: relative; 
+    height: 94%; 
+    width: 94%;
+    border: 1px solid black;
+    margin-left: 8px;
+}
+
+.info-conf{
+    display: none;
+}
+
+.triple-table{
+    display: none;
+    position: relative; 
+    height: 96%; 
+    width: 96%;
+    margin-left: 8px;
+    table-layout: fixed;
+    overflow-y: scroll;
+    overflow-x: scroll;    
+    border: 1px solid black;
+}
+
+/* ------------------------ Visualization Service Frame ------------------------*/
+.results-graph{
+    text-align: center;
+    margin-left: 50%;
+    height: 1000px;
+    width: 50%;
+}
+
+.graphContainer {
+    position: relative; 
+    height: 94%; 
+    width: 94%;
+    border: 1px solid black;
+}
+
+.graph-conf{
+    display: none;
+}
+
+/* ------------------------ TODO ------------------------*/
+.settings-button{
+    float:right;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    /*margin-top : 80px;*/
+    margin-right:20px;
+}
+
+.settings-button img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.settings-config{
+    background: gray;
+}

@@ -1,0 +1,47 @@
+/* ------------------------ Home Container ------------------------ */
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.logo-img{
+    height: 190px;
+    min-height: 120px;
+    min-width: 120px;
+}
+
+.search-div{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    padding: 0 4px 0px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    border: none;
+    font-size: 18px;
+    outline: 0; 
+    margin-left: 10px;
+    display: inline-block;
+    height:32px;
+}
+
+.search-img{
+    height:23px;
+    width:23px;
+    margin-right: 8px;
+}
+
+.home-description {
+    margin-top: 3px;
+    color: #999;
+    font-size: 16px;
+}
